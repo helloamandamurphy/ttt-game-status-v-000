@@ -40,10 +40,7 @@ def winner(board)
  if won?(board)
    combo = won?(board)
    board[combo[0]]
-
-   #elsif won?(board["O"])
-   #{}"O"
  else
    nil
- end
+ ends
 end
